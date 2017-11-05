@@ -26,17 +26,17 @@ h1, h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#topBar {
-	width: 100%;
-	clear: both;
+header {
 	background-color: red;
+    padding:20px;
+    width: 100%;
 }
 
 
 .links {
 	float: right;
 }
-#nameBar, .mainContent, .connectWithMe {
+header, .mainContent, .connectWithMe {
 	border: 1px solid #dddddd;
 }
 
