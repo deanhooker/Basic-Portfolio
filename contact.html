@@ -31,25 +31,22 @@
 
         <h2>Contact</h2>
 
-        <h3>Name</h3>
+        <div class="container">
+          <form action="/action_page.php">
 
-        <div class="contactForms">
-            John Smith
-        </div>
+            <label for="fname">Name</label>
+            <input type="text" id="name" name="wholename" placeholder="John Smith">
 
-        <h3>Email</h3>
+            <label for="lname">Email</label>
+            <input type="text" id="contactEmail" name="emailaddress" placeholder="example@gmail.com">
 
-        <div class="contactForms">
-            example@gmail.com
-        </div>
 
-        <h3>Message</h3>
+            <label for="subject">Message</label>
+            <textarea id="yourMessage" name="message" style="height:200px"></textarea>
 
-        <div class="contactForms" id="message">
-        </div>
+            <input type="submit" value="Submit" id="button">
 
-        <div id="button">
-            Submit
+          </form>
         </div>
 
         </div>
